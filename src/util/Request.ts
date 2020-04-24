@@ -3,7 +3,6 @@ import axios, {AxiosRequestConfig} from "axios";
 
 export default {
     secureGet: (url: string, config?: AxiosRequestConfig) => {
-        // Add security layer here
         return Reattempt.run(
             {times: 3},
             () => axios.get(url, config)

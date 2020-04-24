@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BookTable} from './components/BookTable'
+import {BookTable} from './Books/components'
 
 ReactDOM.render(<BookTable/>, document.getElementById("app"));

@@ -1,6 +1,6 @@
 import {Book} from "../models/Book";
 import PureCache from 'pure-cache';
-import request from '../util/Request'
+import request from '../../util/Request'
 
 // Found this on https://github.com/public-apis/public-apis
 const baseUrl: string = 'https://openlibrary.org/search.json';
