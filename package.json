@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.9.0",
     "axios": "^0.19.2",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "prop-types": "latest",
     "pure-cache": "^1.0.5",
     "react": "^16.13.1",
